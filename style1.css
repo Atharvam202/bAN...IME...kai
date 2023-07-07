@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.logo img {
+    width: 150px;
+    height: 70px;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+.taglight {
+    display: flex;
+    margin-top: 5px;
+}
+.logo:hover {
+    transform: scale(2);
+    transition: 1s ease-in;
+}
+
+.tags {
+    width: 950px;
+}
+.tags1 {
+    display: flex;
+    padding: 0px;
+    gap: 10px;
+    
+    
+}
+.tags2 {
+    display: flex;
+    padding: 0px;
+    gap: 10px;
+    
+    
+}
+.chils {
+    background-color: rgba(255, 255, 0, 0.568);
+}
+.ok-container {
+    border: 1px solid grey;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 0, 0.568);
+}
+
+.genre {
+    border: 2px solid white;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+.genre li a {
+    color: red;
+    gap: 5px;
+}
+.genre li {
+    color: rgba(255, 255, 0, 0.568);
+    gap: 5px;
+}
+.card-container {
+    width: 800px;
+}
+.bars {
+    width: 350px;
+}
+
+.nav {
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    background-color: rgb(117, 185, 245);
+    
+}
+.news_letter{
+    justify-content: space-between;
+    margin-left: 600px;
+}
+.news_letter h3 {
+    margin-bottom: 10px;
+    color:  rgba(255, 255, 0, 0.568);
+    justify-content: space-between;
+}
+.news_letter input {
+    padding: 5px 40px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.icon_container {
+    display: flex;
+    gap: 15px;
+    font-size: 32px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+.bar_icon {
+    font-size: 32px;
+    cursor: pointer; 
+    
+ }
+nav {
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    background-color: rgb(117, 185, 245);
+    
+}
+
+.main-container {
+    
+    gap: 10px;
+    justify-content: space-between;
+    width: 950px;
+}
+.search {
+    border-radius: 50%;
+}
+.search input {
+    width: 30vw;
+    height: 43px;
+    border-radius: 12px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.card {
+    margin-right: 5px;
+    justify-content: space-between;
+}
+.image {
+    margin-right: 5px;
+}
+.content h3 {
+    margin-left: 140px;
+}
+.tags1 a {
+    color: red;
+}
+ .ban img {
+    color: red;
+ }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centre-nav {
+    display: flex;
+    cursor: pointer;
+}
+.header-left {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    width: 1100px;
+}
+
+html ,
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    background-color: rgb(117, 185, 245);
+}
+.text {
+    height: 50px;
+    display: flex;
+    width: 200px;
+    
+}
+.logo {
+    justify-content: space-around;
+}
+ button {
+    cursor: pointer;
+    background-color:  rgba(255, 255, 0, 0.568);
+    display: flex;
+    
+    
+}
+.side-nav img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(255, 255, 0, 0.568);
+    margin-top: 6px;
+}
+.share {
+    display: flex;
+    background-color:  rgba(255, 255, 0, 0.568);
+}
+.share1 img {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(255, 255, 0, 0.568);
+    
+}
+.chils {
+    background-color: white;
+}
+.chils h1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+    background-color:  rgba(255, 255, 0, 0.568);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.chils h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+    background-color:  rgba(255, 255, 0, 0.568);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.chils h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+    background-color:  rgba(255, 255, 0, 0.568);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.chils h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+    background-color:  rgba(255, 255, 0, 0.568);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.chils h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: red;
+    background-color:  rgba(255, 255, 0, 0.568);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.ban {
+    color: red;
+    align-self: auto;
+    background-color:  rgba(255, 255, 0, 0.568);
+}
+.ban img {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    background-color:  rgba(255, 255, 0, 0.568);
+    
+}
+.side-nav {
+    display: flex;
+    cursor: pointer;
+    align-items: flex-end;
+
+}
+.search  {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 4px;
+    
+}
+.avatar img {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    cursor: pointer;
+}
+.mic img {
+    display: flex;
+    padding: 5px ;
+    margin: 5px;
+    height: 48px;
+    width: 48px;
+}
+.copy {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+}
+.copy p {
+    margin-left: 20px;
+    display: flex;
+}
+.copy img {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 100px;
+}
+.copy button {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    
+    
+    
+}
+
+
+.mic {
+    display: flex;
+}
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: rgba(255, 255, 0, 0.749);
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    
+}
+.search img {
+    display: flex;
+    padding: 5px ;
+    margin: 5px;
+    height: 35px;
+    width: 48px;
+    justify-content: space-between;
+}
+.tags {
+    
+    
+    background-color: white;
+}
+.tag {
+    padding: 5px 15px;
+    
+   
+}
+
+aside {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.container {
+    display: flex;
+}
+main {
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    
+}
+
+.image img {
+    width: 150px;
+    height: 200px;
+    margin-left: 100px;
+    border: 1px solid black;
+    
+}
+.image:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in;
+}
+.avatar img {
+    margin-left: 10px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+
+}
+.card {
+    padding: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-content {
+    padding-top: 10px;
+    display: flex;
+
+}
+.name img {
+    display: flex;
+    height: 1160px;
+    margin-top: 100px;
+    width: 350px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.luffy img {
+    display: flex;
+    height: 1160px;
+    margin-top: 35px;
+    width: 350px;
+}
+.content h3 {
+    font-size: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.channel-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+.content-status {
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+}
+.dots img {
+    height: 25px;
+}
